@@ -68,17 +68,5 @@ module.exports = function (input) {
     }
   }
 
-  // function tokenize () {
-  //   const tokens = []
-  //   let token = nextToken()
-  //   while (token !== null) {
-  //     tokens.push(token)
-  //     token = nextToken()
-  //   }
-  //   return tokens
-  // }
-
-  // return tokenize()
-
   return { nextToken }
 }

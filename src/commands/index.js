@@ -1,9 +1,11 @@
 const puts = require('./puts')
+const set = require('./set')
 
 function CommandSet (ctx) {
   this.ctx = ctx
   this.commands = {
-    puts
+    puts,
+    set
   }
 }
 
